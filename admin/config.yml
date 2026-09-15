@@ -1,0 +1,260 @@
+backend:
+  name: github
+  repo: zepadovani/ecris_design
+  branch: main
+  # TODO: troque pela URL do worker de OAuth depois de publicá-lo
+  # (ver cms-oauth-worker/README.md na raiz do repo).
+  base_url: https://SEU-WORKER.workers.dev
+  auth_endpoint: auth
+
+# Imagens de capa/foto entram aqui e ficam acessíveis em /media/covers/*
+# (mesma lógica de site/public/media/bg-cuts — só o que está em public/ é
+# servido pelo Astro).
+media_folder: "site/public/media/covers"
+public_folder: "/media/covers"
+
+locale: pt
+show_preview_links: true
+
+# 2026-09-09 (PLAN.md Fase 5c): 1 coleção por tipo de conteúdo (não mais uma
+# por tipo×idioma) — cada item vira 1 arquivo só, com os campos de texto
+# marcados `i18n: true` editáveis lado a lado nos 3 idiomas numa edição só.
+# Campos SEM `i18n: true` (data, local, tipo, urls...) têm valor único,
+# compartilhado pelos 3 idiomas — não pedem repetição. Ver
+# site/src/content.config.ts pra a mesma classificação campo a campo.
+i18n:
+  structure: single_file
+  locales: [pt, es, en]
+  default_locale: pt
+
+collections:
+  # ==================================================================
+  # Eventos (site/src/content/events)
+  # ==================================================================
+  - name: events
+    label: "Eventos"
+    label_singular: "Evento"
+    folder: "site/src/content/events"
+    extension: md
+    format: frontmatter
+    identifier_field: title
+    fields:
+      - { label: "Título", name: title, widget: string, i18n: true }
+      - { label: "Resumo", name: summary, widget: text, i18n: true }
+      - { label: "Data", name: date, widget: datetime }
+      - { label: "Data final", name: endDate, widget: datetime, required: false }
+      - { label: "Local", name: venue, widget: string }
+      - { label: "Endereço", name: address, widget: string, required: false }
+      - { label: "Entrada gratuita", name: free, widget: boolean, default: true }
+      - { label: "Série", name: series, widget: string, required: false, i18n: true, hint: "ex.: imaginários sonoros" }
+      - label: "Créditos"
+        name: credits
+        widget: list
+        required: false
+        fields:
+          - { label: "Nome", name: name, widget: string }
+          - { label: "Função", name: role, widget: string, required: false, i18n: true }
+      - { label: "Capa", name: cover, widget: image, required: false }
+      - { label: "Texto alternativo da capa", name: coverAlt, widget: string, required: false, i18n: true }
+      - { label: "Rascunho (não publica no site)", name: draft, widget: boolean, default: false }
+      - { label: "Destaque na home (nº)", name: featured, widget: number, value_type: int, required: false, hint: "Preenchido = aparece no carrossel da home, ordenado por este número. Vazio = não aparece." }
+
+  # ==================================================================
+  # Criação artística / produções (site/src/content/productions)
+  # ==================================================================
+  - name: productions
+    label: "Criação artística"
+    label_singular: "Produção"
+    folder: "site/src/content/productions"
+    extension: md
+    format: frontmatter
+    identifier_field: title
+    fields:
+      - { label: "Título", name: title, widget: string, i18n: true }
+      - { label: "Resumo", name: summary, widget: text, i18n: true }
+      - { label: "Data", name: date, widget: datetime }
+      - label: "Tipo"
+        name: kind
+        widget: select
+        options:
+          - { label: "peça", value: piece }
+          - { label: "instalação", value: installation }
+          - { label: "performance", value: performance }
+          - { label: "gravação", value: recording }
+          - { label: "publicação", value: publication }
+      - { label: "Duração", name: duration, widget: string, required: false }
+      - { label: "Instrumentação", name: instrumentation, widget: string, required: false, i18n: true }
+      - label: "Créditos"
+        name: credits
+        widget: list
+        required: false
+        fields:
+          - { label: "Nome", name: name, widget: string }
+          - { label: "Função", name: role, widget: string, required: false, i18n: true }
+      - label: "Links"
+        name: links
+        widget: list
+        required: false
+        fields:
+          - { label: "Rótulo", name: label, widget: string, i18n: true }
+          - { label: "URL", name: url, widget: string }
+      - { label: "Capa", name: cover, widget: image, required: false }
+      - { label: "Texto alternativo da capa", name: coverAlt, widget: string, required: false, i18n: true }
+      - { label: "Rascunho (não publica no site)", name: draft, widget: boolean, default: false }
+      - { label: "Destaque na home (nº)", name: featured, widget: number, value_type: int, required: false }
+
+  # ==================================================================
+  # Investigação / pesquisa (site/src/content/research)
+  # ==================================================================
+  - name: research
+    label: "Investigação"
+    label_singular: "Linha de pesquisa"
+    folder: "site/src/content/research"
+    extension: md
+    format: frontmatter
+    identifier_field: title
+    fields:
+      - { label: "Título", name: title, widget: string, i18n: true }
+      - { label: "Resumo", name: summary, widget: text, i18n: true }
+      - { label: "Início", name: started, widget: datetime, required: false }
+      - label: "Situação"
+        name: status
+        widget: select
+        default: active
+        options:
+          - { label: "em andamento", value: active }
+          - { label: "concluída", value: concluded }
+      - { label: "Financiamento", name: funding, widget: string, required: false }
+      - label: "Pessoas envolvidas"
+        name: people
+        widget: list
+        required: false
+        hint: "Nome do arquivo (slug) da pessoa em Pessoas — uma por linha."
+      - { label: "Capa", name: cover, widget: image, required: false }
+      - { label: "Texto alternativo da capa", name: coverAlt, widget: string, required: false, i18n: true }
+      - { label: "Rascunho (não publica no site)", name: draft, widget: boolean, default: false }
+      - { label: "Destaque na home (nº)", name: featured, widget: number, value_type: int, required: false }
+
+  # ==================================================================
+  # Ferramentas (site/src/content/tools)
+  # ==================================================================
+  - name: tools
+    label: "Ferramentas"
+    label_singular: "Ferramenta"
+    folder: "site/src/content/tools"
+    extension: md
+    format: frontmatter
+    identifier_field: title
+    fields:
+      - { label: "Título", name: title, widget: string, i18n: true }
+      - { label: "Resumo", name: summary, widget: text, i18n: true }
+      - { label: "Repositório (URL)", name: repo, widget: string, required: false }
+      - { label: "Licença", name: license, widget: string, required: false }
+      - { label: "Linguagem de programação", name: language, widget: string, required: false }
+      - label: "Plataformas"
+        name: platform
+        widget: list
+        required: false
+        hint: "ex.: Max, Pd, SuperCollider, Web — uma por linha."
+      - { label: "Capa", name: cover, widget: image, required: false }
+      - { label: "Texto alternativo da capa", name: coverAlt, widget: string, required: false, i18n: true }
+      - { label: "Rascunho (não publica no site)", name: draft, widget: boolean, default: false }
+      - { label: "Destaque na home (nº)", name: featured, widget: number, value_type: int, required: false }
+
+  # ==================================================================
+  # Pessoas (site/src/content/people)
+  # ==================================================================
+  - name: people
+    label: "Pessoas"
+    label_singular: "Pessoa"
+    folder: "site/src/content/people"
+    extension: md
+    format: frontmatter
+    identifier_field: title
+    fields:
+      - { label: "Nome", name: title, widget: string, i18n: true }
+      - { label: "Resumo", name: summary, widget: text, i18n: true }
+      - { label: "Função", name: role, widget: string, i18n: true }
+      - { label: "Afiliação", name: affiliation, widget: string, required: false }
+      - { label: "Foto", name: photo, widget: image, required: false }
+      - label: "Links"
+        name: links
+        widget: list
+        required: false
+        fields:
+          - { label: "Rótulo", name: label, widget: string, i18n: true }
+          - { label: "URL", name: url, widget: string }
+      - { label: "Ativo/a no laboratório", name: active, widget: boolean, default: true }
+      - { label: "Capa", name: cover, widget: image, required: false }
+      - { label: "Texto alternativo da capa", name: coverAlt, widget: string, required: false, i18n: true }
+      - { label: "Rascunho (não publica no site)", name: draft, widget: boolean, default: false }
+      - { label: "Destaque na home (nº)", name: featured, widget: number, value_type: int, required: false }
+
+  # ==================================================================
+  # Formação (site/src/content/teaching)
+  # ==================================================================
+  - name: teaching
+    label: "Formação"
+    label_singular: "Atividade de formação"
+    folder: "site/src/content/teaching"
+    extension: md
+    format: frontmatter
+    identifier_field: title
+    fields:
+      - { label: "Título", name: title, widget: string, i18n: true }
+      - { label: "Resumo", name: summary, widget: text, i18n: true }
+      - { label: "Data/início", name: date, widget: datetime, required: false }
+      - { label: "Instituição", name: institution, widget: string, required: false }
+      - label: "Créditos"
+        name: credits
+        widget: list
+        required: false
+        fields:
+          - { label: "Nome", name: name, widget: string }
+          - { label: "Função", name: role, widget: string, required: false, i18n: true }
+      - { label: "Capa", name: cover, widget: image, required: false }
+      - { label: "Texto alternativo da capa", name: coverAlt, widget: string, required: false, i18n: true }
+      - { label: "Rascunho (não publica no site)", name: draft, widget: boolean, default: false }
+      - { label: "Destaque na home (nº)", name: featured, widget: number, value_type: int, required: false }
+
+  # ==================================================================
+  # Textos (site/src/content/texts)
+  # ==================================================================
+  - name: texts
+    label: "Textos"
+    label_singular: "Texto"
+    folder: "site/src/content/texts"
+    extension: md
+    format: frontmatter
+    identifier_field: title
+    fields:
+      - { label: "Título", name: title, widget: string, i18n: true }
+      - { label: "Resumo", name: summary, widget: text, i18n: true }
+      - { label: "Data", name: date, widget: datetime }
+      - label: "Tipo"
+        name: kind
+        widget: select
+        default: other
+        options:
+          - { label: "artigo", value: article }
+          - { label: "ensaio", value: essay }
+          - { label: "entrevista", value: interview }
+          - { label: "outro", value: other }
+      - label: "Links"
+        name: links
+        widget: list
+        required: false
+        fields:
+          - { label: "Rótulo", name: label, widget: string, i18n: true }
+          - { label: "URL", name: url, widget: string }
+      - label: "Créditos"
+        name: credits
+        widget: list
+        required: false
+        fields:
+          - { label: "Nome", name: name, widget: string }
+          - { label: "Função", name: role, widget: string, required: false, i18n: true }
+      - { label: "Capa", name: cover, widget: image, required: false }
+      - { label: "Texto alternativo da capa", name: coverAlt, widget: string, required: false, i18n: true }
+      - { label: "Rascunho (não publica no site)", name: draft, widget: boolean, default: false }
+      - { label: "Destaque na home (nº)", name: featured, widget: number, value_type: int, required: false }

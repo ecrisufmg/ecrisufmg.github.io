@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0.000 0.000 32.000 32.000" role="img" aria-labelledby="t d">
+<!-- Gerado por scripts/build-logo.py — não editar à mão. -->
+<!-- Cor via `currentColor`: herda o color do contexto. -->
+  <title id="t">ECrIS</title>
+  <desc id="d">Monograma ECrIS para uso em tamanhos minimos (favicon).</desc>
+  <g transform="translate(3.213 -4.601) scale(0.76442)">
+  <path id="ecris-monogram" d="m 10.4307238688,38.6705626977 l 12.5936278761,0 l 0,-4.15556854313 l -8.24771631974,0 l 0,-5.45619367242 l 7.89877346653,0 l 0,-4.15556854313 l -7.89877346653,0 l 0,-5.51962957274 l 8.24771631974,0 l 0,-4.15556854313 l -12.5936278761,0 z"/>
+  </g>
+<style>path{fill:#0D0905}@media(prefers-color-scheme:dark){path{fill:#E9E4DC}}</style>
+</svg>
