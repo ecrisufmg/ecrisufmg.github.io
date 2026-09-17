@@ -29,6 +29,36 @@ i18n:
 
 collections:
   # ==================================================================
+  # Sobre (site/src/content/about) — singleton: 1 arquivo só (index.md),
+  # não uma lista de itens como as demais coleções abaixo.
+  # ==================================================================
+  - name: about
+    label: "Sobre"
+    files:
+      - name: index
+        label: "Texto oficial de apresentação"
+        file: "site/src/content/about/index.md"
+        fields:
+          - { label: "Introdução", name: intro, widget: text, i18n: true }
+          - { label: "Contexto institucional", name: context, widget: text, i18n: true }
+          - { label: "Escopo de pesquisa", name: scope, widget: text, i18n: true }
+          - { label: "Vocação", name: vocation, widget: text, i18n: true }
+          - { label: "Coordenação", name: coordination, widget: text, i18n: true, hint: "Nomear sempre os quatro docentes — nunca reduzir a um coordenador único." }
+          - { label: "Título das linhas de pesquisa", name: linesTitle, widget: string, i18n: true }
+          - label: "Linhas de pesquisa"
+            name: lines
+            widget: list
+            fields:
+              - { label: "Título", name: title, widget: string, i18n: true }
+              - { label: "Descrição", name: body, widget: text, i18n: true }
+          - label: "Links"
+            name: links
+            widget: list
+            fields:
+              - { label: "Rótulo", name: label, widget: string, i18n: true }
+              - { label: "URL", name: url, widget: string }
+
+  # ==================================================================
   # Eventos (site/src/content/events)
   # ==================================================================
   - name: events
