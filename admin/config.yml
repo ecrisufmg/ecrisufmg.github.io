@@ -145,21 +145,12 @@ collections:
     identifier_field: title
     fields:
       - { label: "Título", name: title, widget: string, i18n: true }
-      - { label: "Resumo", name: summary, widget: text, i18n: true }
-      - { label: "Início", name: started, widget: datetime, required: false }
-      - label: "Situação"
-        name: status
-        widget: select
-        default: active
-        options:
-          - { label: "em andamento", value: active }
-          - { label: "concluída", value: concluded }
-      - { label: "Financiamento", name: funding, widget: string, required: false }
-      - label: "Pessoas envolvidas"
-        name: people
-        widget: list
-        required: false
-        hint: "Nome do arquivo (slug) da pessoa em Pessoas — uma por linha."
+      - { label: "Resumo", name: summary, widget: text, i18n: true, required: false }
+      - { label: "Início", name: started, widget: string, required: false, hint: "Ano (ex.: 2014). Datas completas virão no futuro." }
+      - { label: "Fim", name: ended, widget: string, required: false, hint: "Ano (ex.: 2018). Deixe vazio se estiver em andamento." }
+      - { label: "Responsável", name: responsible, widget: string, required: false }
+      - { label: "Agência", name: agency, widget: string, required: false }
+      - { label: "Chamada/Edital", name: call, widget: string, required: false }
       - { label: "Capa", name: cover, widget: image, required: false }
       - { label: "Texto alternativo da capa", name: coverAlt, widget: string, required: false, i18n: true }
       - { label: "Rascunho (não publica no site)", name: draft, widget: boolean, default: false }
