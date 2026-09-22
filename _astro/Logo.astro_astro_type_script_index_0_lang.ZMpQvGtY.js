@@ -1,1 +1,0 @@
-import{t as e}from"./animated-wordmark.D5fO37QU.js";document.querySelectorAll(`[data-logo="animated"]:not([data-logo-trigger="manual"])`).forEach(t=>e(t));

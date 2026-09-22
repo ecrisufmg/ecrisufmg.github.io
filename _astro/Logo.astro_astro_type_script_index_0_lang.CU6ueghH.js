@@ -1,0 +1,1 @@
+import{t as e}from"./animated-wordmark.BrPawLsL.js";document.querySelectorAll(`[data-logo="animated"]:not([data-logo-trigger="manual"])`).forEach(t=>e(t));
