@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "geradoEm": "2026-11-15T16:46:13.287Z",
+  "geradoEm": "2026-11-15T17:08:40.850Z",
   "itens": [
     {
       "id": "20nov2026/foto",
@@ -60,8 +60,8 @@
         {
           "papel": "principal",
           "nome": "post_4x5.jpg",
-          "bytes": 181627,
-          "sha256": "1a44d88e15b4565856b1b773a81513753583e96128485506c4b3748fe11eb770"
+          "bytes": 163473,
+          "sha256": "6d92839842a3c7565568da55cc64d5bbda9802209d8e1b5397103ae6e24ee8e1"
         }
       ]
     },
@@ -85,8 +85,8 @@
         {
           "papel": "capa",
           "nome": "reel_capa_9x16.jpg",
-          "bytes": 167112,
-          "sha256": "9d62895dc128d138888fbecc4330eceac6586a80d6d386764ceafd6a4bb8d12e"
+          "bytes": 167643,
+          "sha256": "13644eeefeb8804400910dcdf79c7510ce52e690c0779633650bad2b373313f6"
         }
       ]
     },
