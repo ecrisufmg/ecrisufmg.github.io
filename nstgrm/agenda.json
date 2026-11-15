@@ -1,0 +1,138 @@
+{
+  "versao": 1,
+  "geradoEm": "2026-11-14T09:58:39.204Z",
+  "itens": [
+    {
+      "id": "20nov2026/foto",
+      "evento": "20nov2026",
+      "tipo": "foto",
+      "titulo": "topografías sonoras",
+      "em": "2026-11-12T19:15:00-03:00",
+      "aprovado": true,
+      "legenda": "Circuito Contemporâneo apresenta:\n\n\"Topografías Sonoras\"\n\ncom Samuel Toro Pérez & Iván Adriano\n\nsexta-feira, 20 de novembro, 19h30\n\nECrIS | Conservatório UFMG — Av. Afonso Pena, 1534, Belo Horizonte\n\nEntrada gratuita.\n\nCom apoio de: Federal Ministry Housing, Arts, Culture, Media and Sport, Republic of Austria; Embaixada da Áustria em Brasília; Sistema de Apoyos a la Creación y Proyectos Culturales e Secretaría de Cultura do México.\n\nConcerto realizado com apoio do Sistema de Apoyos a la Creación y Proyectos Culturales. @sistemacreacion\n\nKindly supported by Federal Ministry Housing, Arts, Culture, Media and Sport, Republic of Austria; Embaixada da Áustria em Brasília; Sistema de Apoyos a la Creación y Proyectos Culturales; Secretaría de Cultura de México.\n\nConcierto realizado con apoyo del Sistema de Apoyos a la Creación y Proyectos Culturales.\n\n#ECrIS #CircuitoContemporâneo #GuitarraElétrica #ConservatórioUFMG #UFMG",
+      "alt": "Dois retratos em preto e branco, um sobre o outro: Samuel Toro Pérez tocando guitarra elétrica e Iván Adriano de camisa escura, ao lado do bloco azul com a data: sexta-feira, 20 de novembro, 19h30.",
+      "urlBase": "https://ecris.cc/nstgrm/20nov2026/",
+      "arquivos": [
+        {
+          "papel": "principal",
+          "nome": "post_4x5.jpg",
+          "bytes": 183536,
+          "sha256": "c576f7fcac694445d0f8519674a94aa373e6b0000f57ba14899caa73defa1092"
+        }
+      ]
+    },
+    {
+      "id": "20nov2026/reel",
+      "evento": "20nov2026",
+      "tipo": "reel",
+      "titulo": "topografías sonoras",
+      "em": null,
+      "aprovado": false,
+      "legenda": "Circuito Contemporâneo apresenta:\n\n\"Topografías Sonoras\"\n\ncom Samuel Toro Pérez & Iván Adriano\n\nsexta-feira, 20 de novembro, 19h30\n\nECrIS | Conservatório UFMG — Av. Afonso Pena, 1534, Belo Horizonte\n\nEntrada gratuita.\n\nCom apoio de: Federal Ministry Housing, Arts, Culture, Media and Sport, Republic of Austria; Embaixada da Áustria em Brasília; Sistema de Apoyos a la Creación y Proyectos Culturales e Secretaría de Cultura do México.\n\nConcerto realizado com apoio do Sistema de Apoyos a la Creación y Proyectos Culturales. @sistemacreacion\n\nKindly supported by Federal Ministry Housing, Arts, Culture, Media and Sport, Republic of Austria; Embaixada da Áustria em Brasília; Sistema de Apoyos a la Creación y Proyectos Culturales; Secretaría de Cultura de México.\n\nConcierto realizado con apoyo del Sistema de Apoyos a la Creación y Proyectos Culturales.\n\n#ECrIS #CircuitoContemporâneo #GuitarraElétrica #ConservatórioUFMG #UFMG",
+      "alt": "",
+      "urlBase": "https://ecris.cc/nstgrm/20nov2026/",
+      "arquivos": [
+        {
+          "papel": "principal",
+          "nome": "reel_9x16.mp4",
+          "bytes": 9522455,
+          "sha256": "0633c0385f2bed6ae4bd9919a7a241a5322d371d12bd4859cab7bd38551ca26f"
+        },
+        {
+          "papel": "capa",
+          "nome": "reel_capa_9x16.jpg",
+          "bytes": 201497,
+          "sha256": "2fe202005960131695d29e930139d194d1350d0322dd3d78e560c7f338f863cd"
+        }
+      ]
+    },
+    {
+      "id": "24nov2026/foto",
+      "evento": "24nov2026",
+      "tipo": "foto",
+      "titulo": "experimentações transatlânticas",
+      "em": null,
+      "aprovado": false,
+      "legenda": "Circuito Contemporâneo apresenta:\n\n\"Weil eure Freiheit… Experimentações transatlânticas\"\n\ncom Artur Miranda Azzi & Rémy Reber (Duo Lachenmann)\n\nterça-feira, 24 de novembro, 19h30\n\nECrIS | Conservatório UFMG — Av. Afonso Pena, 1534, Belo Horizonte\n\nEntrada gratuita.\n\n#ECrIS #CircuitoContemporâneo #Violão #ConservatórioUFMG #UFMG",
+      "alt": "Quadro de vídeo dividido em faixas horizontais, em preto e branco: dois violonistas tocando lado a lado, vistos das mãos e do rosto, acima do bloco azul com a data: terça-feira, 24 de novembro, 19h30.",
+      "urlBase": "https://ecris.cc/nstgrm/24nov2026/",
+      "arquivos": [
+        {
+          "papel": "principal",
+          "nome": "post_4x5.jpg",
+          "bytes": 171879,
+          "sha256": "126b2b500cf1d548f0f82492d0d3d05c57cddf559454b60b579fc25f1a8bc246"
+        }
+      ]
+    },
+    {
+      "id": "24nov2026/reel",
+      "evento": "24nov2026",
+      "tipo": "reel",
+      "titulo": "experimentações transatlânticas",
+      "em": null,
+      "aprovado": false,
+      "legenda": "Circuito Contemporâneo apresenta:\n\n\"Weil eure Freiheit… Experimentações transatlânticas\"\n\ncom Artur Miranda Azzi & Rémy Reber (Duo Lachenmann)\n\nterça-feira, 24 de novembro, 19h30\n\nECrIS | Conservatório UFMG — Av. Afonso Pena, 1534, Belo Horizonte\n\nEntrada gratuita.\n\n#ECrIS #CircuitoContemporâneo #Violão #ConservatórioUFMG #UFMG",
+      "alt": "",
+      "urlBase": "https://ecris.cc/nstgrm/24nov2026/",
+      "arquivos": [
+        {
+          "papel": "principal",
+          "nome": "reel_9x16.mp4",
+          "bytes": 9310705,
+          "sha256": "fd8b3f775a47a4edb02c1f44cc949ba2fdcaea060d65356407b28edacd05912d"
+        },
+        {
+          "papel": "capa",
+          "nome": "reel_capa_9x16.jpg",
+          "bytes": 166025,
+          "sha256": "0d302893b95b64d9c0ca2a63f389b654e98293a7a8a9a43ce0b92f1b668e679a"
+        }
+      ]
+    },
+    {
+      "id": "27nov2026/foto",
+      "evento": "27nov2026",
+      "tipo": "foto",
+      "titulo": "isso não é um violão",
+      "em": null,
+      "aprovado": false,
+      "legenda": "Circuito Contemporâneo apresenta:\n\nSessão do filme: \"Isso não é um violão\"\n\ncom direção de Artur Miranda Azzi & Pedro Aspahan\n\nsexta-feira, 27 de novembro, 19h30\n\nECrIS | Conservatório UFMG — Av. Afonso Pena, 1534, Belo Horizonte\n\nEntrada gratuita.\n\n#ECrIS #CircuitoContemporâneo #Cinema #ConservatórioUFMG #UFMG",
+      "alt": "Fotografia em preto: à esquerda, discos de plástico transparente pendurados refletindo a luz; à direita, o rosto de um homem de perfil, em sombra, voltado para eles. Abaixo, o bloco azul com a data: sexta-feira, 27 de novembro, 19h30.",
+      "urlBase": "https://ecris.cc/nstgrm/27nov2026/",
+      "arquivos": [
+        {
+          "papel": "principal",
+          "nome": "post_4x5.jpg",
+          "bytes": 153738,
+          "sha256": "5606b280b82d13f2e99057fcd40d61656ba8a34cbd5a3715f2a1391641ec9019"
+        }
+      ]
+    },
+    {
+      "id": "27nov2026/reel",
+      "evento": "27nov2026",
+      "tipo": "reel",
+      "titulo": "isso não é um violão",
+      "em": null,
+      "aprovado": false,
+      "legenda": "Circuito Contemporâneo apresenta:\n\nSessão do filme: \"Isso não é um violão\"\n\ncom direção de Artur Miranda Azzi & Pedro Aspahan\n\nsexta-feira, 27 de novembro, 19h30\n\nECrIS | Conservatório UFMG — Av. Afonso Pena, 1534, Belo Horizonte\n\nEntrada gratuita.\n\n#ECrIS #CircuitoContemporâneo #Cinema #ConservatórioUFMG #UFMG",
+      "alt": "",
+      "urlBase": "https://ecris.cc/nstgrm/27nov2026/",
+      "arquivos": [
+        {
+          "papel": "principal",
+          "nome": "reel_9x16.mp4",
+          "bytes": 6778322,
+          "sha256": "17eacd685ff579087ef6f6d14cfd8f52fea113f24e85d063156c89beeafbc38c"
+        },
+        {
+          "papel": "capa",
+          "nome": "reel_capa_9x16.jpg",
+          "bytes": 161068,
+          "sha256": "5268739989488b7d2e2fda5c58baf88f6a70118d444d6de7b94bfc74627a2f92"
+        }
+      ]
+    }
+  ]
+}
