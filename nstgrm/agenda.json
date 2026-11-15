@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "geradoEm": "2026-11-15T17:08:40.850Z",
+  "geradoEm": "2026-11-15T17:44:46.758Z",
   "itens": [
     {
       "id": "20nov2026/foto",
@@ -123,8 +123,8 @@
         {
           "papel": "principal",
           "nome": "reel_9x16.mp4",
-          "bytes": 6740693,
-          "sha256": "e2f713a0349d3bd773d3d4adbcb107df6c3e836f7b7d2cead8d5c70775e1292f"
+          "bytes": 6719156,
+          "sha256": "7ef5f06b15d26e0e1e9dbfa1c0d6c6e89eac60d069291652269979d7fb8737c3"
         },
         {
           "papel": "capa",
