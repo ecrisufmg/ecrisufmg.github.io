@@ -1,14 +1,14 @@
 {
   "versao": 1,
-  "geradoEm": "2026-11-14T19:27:19.735Z",
+  "geradoEm": "2026-11-15T16:21:53.253Z",
   "itens": [
     {
       "id": "20nov2026/foto",
       "evento": "20nov2026",
       "tipo": "foto",
       "titulo": "topografías sonoras",
-      "em": "2026-11-12T19:15:00-03:00",
-      "aprovado": true,
+      "em": null,
+      "aprovado": false,
       "legenda": "Circuito Contemporâneo apresenta:\n\n\"Topografías Sonoras\"\n\ncom Samuel Toro Pérez & Iván Adriano\n\nsexta-feira, 20 de novembro, 19h30\n\nECrIS | Conservatório UFMG — Av. Afonso Pena, 1534, Belo Horizonte\n\nEntrada gratuita.\n\nCom apoio de: Federal Ministry Housing, Arts, Culture, Media and Sport, Republic of Austria; Embaixada da Áustria em Brasília; Sistema de Apoyos a la Creación y Proyectos Culturales e Secretaría de Cultura do México.\n\nConcerto realizado com apoio do Sistema de Apoyos a la Creación y Proyectos Culturales. @sistemacreacion\n\nKindly supported by Federal Ministry Housing, Arts, Culture, Media and Sport, Republic of Austria; Embaixada da Áustria em Brasília; Sistema de Apoyos a la Creación y Proyectos Culturales; Secretaría de Cultura de México.\n\nConcierto realizado con apoyo del Sistema de Apoyos a la Creación y Proyectos Culturales.\n\n#ECrIS #CircuitoContemporâneo #GuitarraElétrica #ConservatórioUFMG #UFMG",
       "alt": "Dois retratos em preto e branco, um sobre o outro: Samuel Toro Pérez tocando guitarra elétrica e Iván Adriano de camisa escura, ao lado do bloco azul com a data: sexta-feira, 20 de novembro, 19h30.",
       "urlBase": "https://ecris.cc/nstgrm/20nov2026/",
@@ -60,8 +60,8 @@
         {
           "papel": "principal",
           "nome": "post_4x5.jpg",
-          "bytes": 171879,
-          "sha256": "126b2b500cf1d548f0f82492d0d3d05c57cddf559454b60b579fc25f1a8bc246"
+          "bytes": 181627,
+          "sha256": "1a44d88e15b4565856b1b773a81513753583e96128485506c4b3748fe11eb770"
         }
       ]
     },
@@ -79,14 +79,14 @@
         {
           "papel": "principal",
           "nome": "reel_9x16.mp4",
-          "bytes": 9310705,
-          "sha256": "fd8b3f775a47a4edb02c1f44cc949ba2fdcaea060d65356407b28edacd05912d"
+          "bytes": 23499776,
+          "sha256": "7ee6232cc3add49a4acf002b7be65c5257cfe93d2fc3939962cf35e5b09508d0"
         },
         {
           "papel": "capa",
           "nome": "reel_capa_9x16.jpg",
-          "bytes": 166025,
-          "sha256": "0d302893b95b64d9c0ca2a63f389b654e98293a7a8a9a43ce0b92f1b668e679a"
+          "bytes": 164869,
+          "sha256": "7531925d109919b7d7db5d5257b75420770fbdd792fa80eab02badfcadf2c1f7"
         }
       ]
     },

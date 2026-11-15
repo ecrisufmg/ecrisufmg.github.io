@@ -1,0 +1,56 @@
+[
+  {
+    "id": "var_01",
+    "rotulo": "Retrato Clássico · Signal",
+    "parametros": {
+      "layout": "retrato",
+      "tema": "escuro",
+      "corData": "signal",
+      "fatiar": 1,
+      "semCorte": false,
+      "tituloFixo": false
+    },
+    "thumbnail": "previas/exploracao/var_01.png"
+  },
+  {
+    "id": "var_02",
+    "rotulo": "Paisagem · Ember",
+    "parametros": {
+      "layout": "paisagem",
+      "tema": "escuro",
+      "corData": "ember",
+      "fatiar": 1,
+      "semCorte": false,
+      "tituloFixo": false
+    },
+    "thumbnail": "previas/exploracao/var_02.png"
+  },
+  {
+    "id": "var_03",
+    "rotulo": "Embaralhado 2 fatias · Indigo",
+    "parametros": {
+      "layout": "embaralhado",
+      "tema": "escuro",
+      "corData": "indigo",
+      "fatiar": 2,
+      "semCorte": false,
+      "tituloFixo": false,
+      "seed": 1
+    },
+    "thumbnail": "previas/exploracao/var_03.png"
+  },
+  {
+    "id": "var_04",
+    "rotulo": "Embaralhado 3 fatias · Sage · Título Fixo",
+    "parametros": {
+      "layout": "embaralhado",
+      "tema": "escuro",
+      "corData": "sage",
+      "fatiar": 3,
+      "semCorte": false,
+      "tituloFixo": true,
+      "seed": 2
+    },
+    "thumbnail": "previas/exploracao/var_04.png"
+  }
+]
