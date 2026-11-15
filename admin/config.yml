@@ -71,6 +71,7 @@ collections:
     fields:
       - { label: "Título", name: title, widget: string, i18n: true }
       - { label: "Resumo", name: summary, widget: text, i18n: true }
+      - { label: "Texto detalhado (markdown simples)", name: details, widget: text, required: false, i18n: true, hint: "Publicado em /acontece/<evento>. Não traduzir títulos de peças, nomes de pessoas nem citações/aspas." }
       - { label: "Data", name: date, widget: datetime }
       - { label: "Data final", name: endDate, widget: datetime, required: false }
       - { label: "Local", name: venue, widget: string }
