@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "geradoEm": "2026-11-23T15:29:34.977Z",
+  "geradoEm": "2026-11-23T15:44:58.747Z",
   "itens": [
     {
       "id": "20nov2026/foto",
@@ -148,8 +148,8 @@
         {
           "papel": "principal",
           "nome": "post_4x5.jpg",
-          "bytes": 285653,
-          "sha256": "011cab3cfecd2318bf2feb66cc316d90aa4c154e7f81c1f1102c045edb36cdb1"
+          "bytes": 293666,
+          "sha256": "5a4f0241a4c94aa9d364f21b07fca30915bf9fb16e385a9c04ce22aa91980235"
         }
       ]
     }
