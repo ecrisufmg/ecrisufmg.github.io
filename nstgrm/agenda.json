@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "geradoEm": "2026-11-23T15:46:58.855Z",
+  "geradoEm": "2026-11-27T10:02:25.440Z",
   "itens": [
     {
       "id": "20nov2026/foto",
@@ -150,6 +150,31 @@
           "nome": "post_4x5.jpg",
           "bytes": 293666,
           "sha256": "5a4f0241a4c94aa9d364f21b07fca30915bf9fb16e385a9c04ce22aa91980235"
+        }
+      ]
+    },
+    {
+      "id": "27nov2026_tato/reel",
+      "evento": "27nov2026_tato",
+      "tipo": "reel",
+      "titulo": "compor é construir um instrumento e criar um jogo",
+      "em": null,
+      "aprovado": false,
+      "legenda": "O ECrIS apresenta:\n\nEncontro com Tato Taborda (UFF): \"Compor é construir um instrumento e criar um jogo\"\n\nsexta-feira, 27 de novembro, 14h00 – 17h00\n\nECrIS | Conservatório UFMG — Av. Afonso Pena, 1534, Belo Horizonte\n\nEntrada gratuita.\n\nCom apoio do Programa de Pós-Graduação em Música da UFMG (PPGMUS) e da CAPES.\n\n#ECrIS #TatoTaborda #Composição #PPGMUS #UFMG",
+      "alt": "",
+      "urlBase": "https://ecris.cc/nstgrm/27nov2026_tato/",
+      "arquivos": [
+        {
+          "papel": "principal",
+          "nome": "reel_9x16.mp4",
+          "bytes": 861894,
+          "sha256": "1d617b19d29846a717f28969b20fd137319f4dd55cfd4ff6eaec2152144a4325"
+        },
+        {
+          "papel": "capa",
+          "nome": "reel_capa_9x16.jpg",
+          "bytes": 205192,
+          "sha256": "9bf18a7b16cbbf58ca309f586d11d48a245bdf8edab5ccaf084ec9ca3d9218b5"
         }
       ]
     }
