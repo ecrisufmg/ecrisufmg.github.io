@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "geradoEm": "2026-11-27T10:02:25.440Z",
+  "geradoEm": "2026-11-27T10:31:02.152Z",
   "itens": [
     {
       "id": "20nov2026/foto",
@@ -104,8 +104,8 @@
         {
           "papel": "principal",
           "nome": "post_4x5.jpg",
-          "bytes": 164118,
-          "sha256": "82dd7d00cb99f82ad6a6afcc4afb1c95374b237a8d6700512638bd22a3d0028b"
+          "bytes": 165058,
+          "sha256": "2f43963f52995d5446e0d864aa032dff1b223670ba484a2de23afcc6bf43bafe"
         }
       ]
     },
@@ -123,14 +123,14 @@
         {
           "papel": "principal",
           "nome": "reel_9x16.mp4",
-          "bytes": 6719156,
-          "sha256": "7ef5f06b15d26e0e1e9dbfa1c0d6c6e89eac60d069291652269979d7fb8737c3"
+          "bytes": 1655811,
+          "sha256": "5bb9827d9c6bf4f158de55ac32fe08df64b9606626a5f68ce80e583efa7608ba"
         },
         {
           "papel": "capa",
           "nome": "reel_capa_9x16.jpg",
-          "bytes": 153967,
-          "sha256": "3199002a39c804c4a58da1a240d4fc3f04f1242ce881b44c35a349c4b3d09bbb"
+          "bytes": 179143,
+          "sha256": "4c545fa00d5fa63534e900ed31c6ebd1ababd56ff3c3d52b96c2686b7d6a93c0"
         }
       ]
     },
@@ -175,6 +175,26 @@
           "nome": "reel_capa_9x16.jpg",
           "bytes": 205192,
           "sha256": "9bf18a7b16cbbf58ca309f586d11d48a245bdf8edab5ccaf084ec9ca3d9218b5"
+        }
+      ]
+    },
+    {
+      "id": "27nov2026_tato/story-mwyrvm2j",
+      "evento": "27nov2026_tato",
+      "tipo": "story",
+      "midiaTipo": "imagem",
+      "titulo": "compor é construir um instrumento e criar um jogo",
+      "em": null,
+      "aprovado": false,
+      "legenda": "",
+      "alt": "",
+      "urlBase": "https://ecris.cc/nstgrm/27nov2026_tato/",
+      "arquivos": [
+        {
+          "papel": "principal",
+          "nome": "story_mwyrvm2j.jpg",
+          "bytes": 290598,
+          "sha256": "0994c15428cd22bd99d64bdc2a09fdaf36f6e4b91982c38d740b803efcaada7a"
         }
       ]
     }
